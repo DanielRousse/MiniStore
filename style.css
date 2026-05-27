@@ -63,8 +63,8 @@ header {
 }
 
 .hero-container {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     gap: 40px;
     max-width: 1200px;
@@ -72,7 +72,7 @@ header {
 }
 
 .hero-content {
-    flex: 1;
+    text-align: center;
 }
 
 .hero-content h1 {
@@ -99,7 +99,6 @@ header {
 }
 
 .hero-image {
-    flex: 1;
     display: flex;
     justify-content: flex-end;
 }
